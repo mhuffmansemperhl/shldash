@@ -1,49 +1,229 @@
 pageInfo:
-  title: SHL Dashboard
-  description: Semper Home Loans links and stats
-  navLinks:
-    - title: GitHub
-      path: https://github.com/Lissy93/dashy
-    - title: Documentation
-      path: https://dashy.to/docs
+  title: Semper Home Loans
+  description: Link Dashboard
 appConfig:
   theme: colorful
   layout: auto
   iconSize: medium
   language: en
 sections:
-  - name: Getting Started
-    icon: fas fa-rocket
+  - name: Netlify Sites
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
     items:
-      - title: Dashy Live
-        description: Development a project management links for Dashy
-        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-        url: https://live.dashy.to/
-        target: newtab
-        id: 0_1481_dashylive
-      - title: GitHub
-        description: Source Code, Issues and Pull Requests
-        url: https://github.com/lissy93/dashy
-        icon: favicon
-        id: 1_1481_github
-      - title: Docs
-        description: Configuring & Usage Documentation
-        provider: Dashy.to
-        icon: far fa-book
-        url: https://dashy.to/docs
-        id: 2_1481_docs
-      - title: Showcase
-        description: See how others are using Dashy
-        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-        icon: far fa-grin-hearts
-        id: 3_1481_showcase
-      - title: Config Guide
-        description: See full list of configuration options
-        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-        icon: fas fa-wrench
-        id: 4_1481_configguide
-      - title: Support
-        description: Get help with Dashy, raise a bug, or get in contact
-        url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-        icon: far fa-hands-helping
-        id: 5_1481_support
+      - title: HomeEasy Realty Homepage
+        description: homeeasy_realty_next
+        url: https://homeasy-realty-main.netlify.app/
+        id: 0_1283_homeeasyrealtyhomepage
+      - title: boxed.loan DanG
+        description: dan_landing
+        url: https://boxed.loan/
+        id: 1_1283_boxedloandang
+      - title: Original sempervibe.com
+        description: semperbranch2
+        url: https://sbranch2.netlify.app
+        id: 2_1283_originalsempervibecom
+      - title: Webhook Proxy
+        description: webhook_proxy
+        url: https://semperhl-webhook-proxy.netlify.app/
+        id: 3_1283_webhookproxy
+      - title: DanG Funnel Wizard
+        description: dan_g_funnel
+        url: https://dan-g-funnel.netlify.app/
+        id: 4_1283_dangfunnelwizard
+      - title: Join Semper
+        description: joinsemper
+        url: https://joinsemper.com/
+        id: 5_1283_joinsemper
+      - title: Rate Table Admin
+        description: reverse_rate_search_admin
+        url: https://admin.joinsemper.com/
+        id: 6_1283_ratetableadmin
+      - title: BD Calc Test
+        description: buydown_calculator
+        url: https://bdcalc.netlify.app/
+        id: 7_1283_bdcalctest
+      - title: IDX initial test
+        description: idx_test
+        url: https://shl-idx-test.netlify.app/
+        id: 8_1283_idxinitialtest
+      - title: Reverse Rate Table
+        description: reverse_rate_search
+        url: https://shlrates.com
+        id: 9_1283_reverseratetable
+      - title: HomeEasy100
+        description: easy_100_dpa
+        url: https://www.homeeasy100.com/
+        id: 10_1283_homeeasy
+      - title: HomeEasy IDX Test
+        description: homeeasy_realty
+        url: https://homeeasy-realty.netlify.app/
+        id: 11_1283_homeeasyidxtest
+      - title: HomeEasy Homes
+        description: shlidx_new
+        url: https://homeeasyhomes.com/
+        id: 12_1283_homeeasyhomes
+      - title: GetHomeEasy
+        description: rate_table_new
+        url: https://www.gethomeeasy.com
+        id: 13_1283_gethomeeasy
+  - name: Godaddy Sites
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: new.semperbranch cpanel
+        url: >-
+          https://host.godaddy.com/webhosting/cpanel/account/09d84178-4ca9-11e9-8179-3417ebe7253b/view
+        id: 0_1252_newsemperbranchcpanel
+      - title: new.semperbranch home
+        url: http://new.semperbranch.com
+        id: 1_1252_newsemperbranchhome
+      - title: Appraisal Request
+        url: http://amc.new.semperbranch.com
+        id: 2_1252_appraisalrequest
+      - title: Appraiser Request - New
+        url: http://appraiser.new.semperbranch.com
+        id: 3_1252_appraiserrequestnew
+      - title: Attorney Request - New
+        url: http://attorney.new.semperbranch.com
+        id: 4_1252_attorneyrequestnew
+      - title: Attorney Request - 2
+        url: http://attorney2.new.semperbranch.com
+        id: 5_1252_attorneyrequest
+      - title: HomeEasy Old
+        url: https://homeeasy2.new.semperbranch.com
+        id: 6_1252_homeeasyold
+      - title: Zillow Form
+        url: http://zillow.new.semperbranch.com
+        id: 7_1252_zillowform
+      - title: Eric 100M
+        url: http://eric100m.com
+        id: 8_1252_ericm
+      - title: MyHomeLoanOffer
+        url: https://myhomeloanoffer.com
+        id: 9_1252_myhomeloanoffer
+      - title: SemperHQ
+        url: https://semperhq.com
+        id: 10_1252_semperhq
+      - title: SemperReno
+        url: https://semperreno.com
+        id: 11_1252_semperreno
+  - name: WPEngine Sites
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Semper Home Loans (Prod)
+        url: http://semperhomeloans.com/
+        id: 0_1317_semperhomeloansprod
+      - title: Semper Home Loans (Dev)
+        url: http://shldevelop.wpengine.com/
+        id: 1_1317_semperhomeloansdev
+      - title: Semper Home Loans (Stag)
+        url: http://shlstaging.wpengine.com/
+        id: 2_1317_semperhomeloansstag
+  - name: Service Sites
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: WPEngine
+        url: https://my.wpengine.com/#all
+        id: 0_1273_wpengine
+      - title: Godaddy
+        url: https://www.godaddy.com
+        id: 1_1273_godaddy
+      - title: Cloudflare
+        url: https://cloudflare.com
+        id: 2_1273_cloudflare
+      - title: Optimal Blue API
+        url: https://digitalmarketplace.optimalblue.com/signin
+        id: 3_1273_optimalblueapi
+      - title: SimpleNexus
+        url: https://simplenexus.com/
+        id: 4_1273_simplenexus
+      - title: Jungo
+        url: https://salesforce.com
+        id: 5_1273_jungo
+      - title: Zendesk Admin
+        url: https://semperhl.zendesk.com/agent
+        id: 6_1273_zendeskadmin
+  - name: Bookngs Links
+    displayData:
+      sortBy: alphabetical
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: AMendez
+        url: https://sempervibe.com/bookings/AMendez.html
+        id: 0_1268_amendez
+      - title: bookappointment
+        url: https://sempervibe.com/bookings/bookappointment.html
+        id: 1_1268_bookappointment
+      - title: BWestervelt
+        url: https://sempervibe.com/bookings/BWestervelt.html
+        id: 2_1268_bwestervelt
+      - title: Careers
+        url: https://sempervibe.com/bookings/Careers.html
+        id: 3_1268_careers
+      - title: CMuller
+        url: https://sempervibe.com/bookings/CMuller.html
+        id: 4_1268_cmuller
+      - title: CVo
+        url: https://sempervibe.com/bookings/CVo.html
+        id: 5_1268_cvo
+      - title: DanFogg
+        url: https://sempervibe.com/bookings/DanFogg.html
+        id: 6_1268_danfogg
+      - title: DGiroux
+        url: https://sempervibe.com/bookings/DGiroux.html
+        id: 7_1268_dgiroux
+      - title: EMaluk
+        url: https://sempervibe.com/bookings/EMaluk.html
+        id: 8_1268_emaluk
+      - title: EOviedo
+        url: https://sempervibe.com/bookings/EOviedo.html
+        id: 9_1268_eoviedo
+      - title: JasonPinheiro
+        url: https://sempervibe.com/bookings/JasonPinheiro.html
+        id: 10_1268_jasonpinheiro
+      - title: JoinSemper
+        url: https://sempervibe.com/bookings/JoinSemper.html
+        id: 11_1268_Joinsemper
+      - title: JVonFlatern
+        url: https://sempervibe.com/bookings/JVonFlatern.html
+        id: 12_1268_jvonflatern
+      - title: MNam
+        url: https://sempervibe.com/bookings/MNam.html
+        id: 13_1268_mnam
+      - title: RKazarian
+        url: https://sempervibe.com/bookings/RKazarian.html
+        id: 14_1268_rkazarian
+      - title: SAmedee
+        url: https://sempervibe.com/bookings/SAmedee.html
+        id: 15_1268_samedee
+      - title: SMcGowan
+        url: https://sempervibe.com/bookings/SMcGowan.html
+        id: 16_1268_smcgowan
+      - title: SummitBooking
+        url: https://sempervibe.com/bookings/SummitBooking.html
+        id: 17_1268_summitbooking
+      - title: TJCurran
+        url: https://sempervibe.com/bookings/TJCurran.html
+        id: 18_1268_tjcurran
